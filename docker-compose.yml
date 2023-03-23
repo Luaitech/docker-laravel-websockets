@@ -7,7 +7,7 @@ networks:
 
 services:
   docker-laravel-websockets:
-    image: 'php:8.1.9-cli-laravel-websockets-v1.0'
+    image: 'chudaozhe/php:8.1.9-cli-laravel-websockets-v1.0'
     volumes:
       - ./storage:/var/www/app/storage
       - ./app/.env:/var/www/app/.env

@@ -56,5 +56,5 @@ DB_PASSWORD=
 ### 构建镜像
 由上可得一个`Dockerfile`文件，构建一下就好了
 ```
-cuiwei@weideMacBook-Pro docker-laravel-websockets % docker build -t php:8.1.9-cli-laravel-websockets-v1.0 .
+cuiwei@weideMacBook-Pro docker-laravel-websockets % docker build -t chudaozhe/php:8.1.9-cli-laravel-websockets-v1.0 .
 ```
