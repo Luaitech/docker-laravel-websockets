@@ -18,12 +18,12 @@ CMD apache2-foreground && php artisan websockets:serve
 
 由于是尝试，所以我们不直接写`Dockerfile`，而是直接运行基础镜像（`php:8.1.9-cli`）
 ```
-docker-laravel-websockets:
-image: 'php:8.1.9-cli'
-ports:
-- '6001:6001'
-networks:
-- server_web-network
+  docker-laravel-websockets:
+    image: 'php:8.1.9-cli'
+    ports:
+      - '6001:6001'
+    networks:
+      - server_web-network
 ```
 
 然后进入容器操作
